@@ -1,0 +1,52 @@
+const games = [
+  {
+    id: 1,
+    title: "The Legend of Zelda: Tears of the Kingdom",
+    price: 69.99,
+    category: "Adventure",
+    image: "https://placehold.co/300x400/1a1a2e/ffffff?text=Zelda",
+    description: "An epic adventure across the skies and depths of Hyrule.",
+  },
+  {
+    id: 2,
+    title: "Elden Ring",
+    price: 59.99,
+    category: "RPG",
+    image: "https://placehold.co/300x400/2d1b4e/ffffff?text=Elden+Ring",
+    description: "A vast open world filled with danger and discovery.",
+  },
+  {
+    id: 3,
+    title: "God of War Ragnarök",
+    price: 69.99,
+    category: "Action",
+    image: "https://placehold.co/300x400/4a1c1c/ffffff?text=God+of+War",
+    description: "Kratos and Atreus face the coming of Ragnarök.",
+  },
+  {
+    id: 4,
+    title: "Hollow Knight",
+    price: 14.99,
+    category: "Indie",
+    image: "https://placehold.co/300x400/1c3a4a/ffffff?text=Hollow+Knight",
+    description: "A challenging 2D adventure through a ruined kingdom.",
+  },
+  {
+    id: 5,
+    title: "Hades",
+    price: 24.99,
+    category: "Indie",
+    image: "https://placehold.co/300x400/4a2c1c/ffffff?text=Hades",
+    description: "Escape the Underworld in this action roguelike.",
+  },
+  {
+    id: 6,
+    title: "Cyberpunk 2077",
+    price: 39.99,
+    category: "RPG",
+    image: "https://placehold.co/300x400/2e2e1a/ffffff?text=Cyberpunk",
+    description: "A sprawling open-world RPG in a dystopian future.",
+  },
+]
+
+export default games
