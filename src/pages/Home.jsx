@@ -1,4 +1,6 @@
 import Hero from "../components/Hero"
+import ProductCard from "../components/ProductCard"
+import games from "../data/games.json"
 
 function Home() {
     return (
@@ -10,9 +12,15 @@ function Home() {
                 buttonLink = "/products"
             />
 
-            <div className="container mt-5 text-center">
-                <h2>Featured Games</h2>
-                <p className="text-muted">Coming soon...</p>
+            <div className="container mt-5">
+                <h2 className="text-center mb-4">Featured Games</h2>
+                <div className="row g-4">
+                    {games.map(game => (
+                        <div key={game.id} className="col-12 col-sm-6 col-lg-4">
+                        <ProductCard game={game} />
+                        </div>
+                    ))}
+                </div>
             </div>
         </>
     )
